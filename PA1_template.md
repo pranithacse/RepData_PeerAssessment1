@@ -135,7 +135,7 @@ g <- ggplot(StepsPerDay, aes(Steps))
 g+geom_histogram(boundary=0, binwidth=2500, col="darkgreen", fill="lightgreen")+ggtitle("Histogram of steps per day")+xlab("Steps")+ylab("Frequency")+theme(plot.title = element_text(face="bold", size=12))+scale_x_continuous(breaks=seq(0,25000,2500))+scale_y_continuous(breaks=seq(0,18,2))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![graphs/unnamed-chunk-4-1.png](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 
 **3. Mean and median of total number of steps taken per day**
